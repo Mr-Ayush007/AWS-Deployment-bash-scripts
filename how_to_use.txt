@@ -1,0 +1,20 @@
+STEP -1:
+	run first_step.sh using (./first_step.sh or bash first_step.sh)
+	
+STEP -2:
+	-Now clone repo from github using git clone
+	-Next populate database
+	-Now go to your project create virtual environment and install requirement.txt and 			 install flask gunicorn
+
+STEP -3:'
+	-Deactivate your venv and go to cd ~
+	-Now run nginx_setup.sh
+	-Write configuration file using nginx_configuration.txt
+	-And run after_nginx_setup.sh
+
+STEP -4:
+	-Go to cd ~
+	-run sudo nano /etc/systemd/system/gunicorn.service
+	-configur service file using gunicorn_service_file.txt
+	-Now run after_gnicorn_service.sh
+	

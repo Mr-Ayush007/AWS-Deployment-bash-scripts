@@ -1,0 +1,11 @@
+server{
+	listen 80;
+	location /{
+		proxy_pass http://127.0.0.1:[ Enter Port No. ];
+	}
+
+	location /static/{
+		alias [ Enter an absolute path of your projects static directory ];
+	}
+}
+

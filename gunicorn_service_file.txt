@@ -1,0 +1,11 @@
+[Unit]
+Description=
+After=network.target
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=[ Enter absolute path of your project directory ]
+ExecStart=[ Enter absolute path of your project directory ]/venv/bin/gunicorn --workers 2 --bind 127.0.0.1:5000 app:app
+[Install]
+WantedBy=multi-user.target
+
