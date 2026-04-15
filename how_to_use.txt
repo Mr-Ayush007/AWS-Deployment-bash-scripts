@@ -5,8 +5,9 @@ STEP -2:
 	-Now clone repo from github using git clone
 	-Next populate database
 	-Now go to your project create virtual environment and install requirement.txt and 	also install flask gunicorn
+	-Give permission to the static dir using this command => chmod 755 static
 
-STEP -3:'
+STEP -3:
 	-Deactivate your venv and go to cd ~
 	-Now run nginx_setup.sh
 	-Write configuration file using nginx_configuration.txt
