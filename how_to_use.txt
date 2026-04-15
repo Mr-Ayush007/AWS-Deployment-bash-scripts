@@ -10,6 +10,7 @@ STEP -2:
 STEP -3:
 	-Deactivate your venv and go to cd ~
 	-Now run nginx_setup.sh
+	-And also run chmod +x /home/ubuntu
 	-Write configuration file using nginx_configuration.txt
 	-And run after_nginx_setup.sh
 
